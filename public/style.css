@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #105469;
+  font-family: 'Open Sans', sans-serif;
+}
+#rating {
+    /* center table */
+    margin: 0 auto;
+    padding: 0;
+    height: 100vh;
+}
+
+table {
+  background: #012B39;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin-left: 5em;
+  margin-right: 5em;
+  padding: 5em;
+}
+th {
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+td {
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
+}
+.disabled td {
+  color: #4F5F64;
+}
+tbody tr {
+  transition: background 0.25s ease;
+}
+tbody tr:hover {
+  background: #014055;
+}
+
+
+div{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ededed;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+#names{
+    padding-top: 1em;
+    margin-top: 10px;
+    font-size: 1.15em;
+    position: relative;
+    background-color: #3d71a2;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+#names button{
+    font-size: 1.15em;
+    /* position: absolute; */
+    bottom: 0;
+    /* left: 50%; */
+    transform: translateY(52%);
+    background-color: #3d71a2;
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 0.25em;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: 1.5em;
+}
+
+#names2 button{
+  font-size: 1.15em;
+  /* position: absolute; */
+  bottom: 0;
+  /* left: 50%; */
+  transform: translateY(52%);
+  text-align: center;
+  border: none;
+  padding: 0.25em;
+  cursor: pointer;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #ededed;
+  color: black; 
+  margin-left: 1.5em;
+
+}
+
+#names .classSelect{
+    background-color: #ededed;
+    color: black;
+}
+
+#home {
+    display: flex;
+    box-sizing: border-box;
+    background-color: #ededed;
+}
+  
+#select {
+flex: 0.3; /* 30% */
+margin-left: 10em;
+padding-top: 2em;
+}
+
+#vis {
+flex: 0.7; /* 70% */
+height: 100vh; /* Ocupa a altura total da viewport */
+padding: 2em;
+}
+
+#searchInput {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: none;
+border-radius: 4px;
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+#suggestionsList {
+margin: 0;
+padding: 0;
+list-style-type: none;
+width: 100%;
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+background-color: white;
+z-index: 999;
+max-height: 400px;
+overflow-y: auto;
+}
+
+#suggestionsList div {
+padding: 10px;
+cursor: pointer;
+}
+
+#suggestionsList div:hover {
+background-color: #f1f1f1;
+}
+
+header h1 {
+    font-size: 2.5em; /* Tamanho da fonte */
+    color: #ededed; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto */
+    padding: 20px; /* Espaçamento interno */
+    font-family: 'Arial', sans-serif; /* Tipo de fonte */
+    font-weight: bold; /* Peso da fonte */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre as letras */
+}
